@@ -1,5 +1,7 @@
 import Isaw from './images/isaw.jpg';
 
+const content = document.querySelector('#content');
+
 const isaw = document.createElement('img');
 isaw.src = Isaw;
 isaw.setAttribute('width', '100%');
@@ -9,7 +11,6 @@ const dateTime = document.createElement('p');
 dateTime.classList.add('date-time');
 dateTime.textContent = 'Mon - Sun: 11am - 12am';
 
-const content = document.querySelector('#content');
 
 export function home() {
   content.appendChild(isaw);

@@ -24,6 +24,8 @@ body  {
   padding: none;
 }
 
+.home-button,
+.menu-button,
 .header-button {
   background-color: var(--header-button-bgc);
   color: var(--font-color);
