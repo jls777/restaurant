@@ -1,0 +1,10 @@
+.construction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.construction > p {
+  color: hsl(0, 0%, 40%);
+  font-size: 5rem;
+}
